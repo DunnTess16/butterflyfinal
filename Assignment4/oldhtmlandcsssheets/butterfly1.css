@@ -1,0 +1,481 @@
+
+ @import url("https://use.typekit.net/qxb7gll.css");
+ @import url("https://use.typekit.net/fru7jev.css");
+ @import url("https://use.typekit.net/kcu8iao.css");
+ @import url("https://use.typekit.net/zpb8vix.css");
+ @import url("https://use.typekit.net/nzm5ntg.css");
+ @import url("https://use.typekit.net/bao1gkf.css");
+
+
+@font-face {
+    src: url("https://use.typekit.net/fru7jev.css");
+    font-family: rift, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+    src: url("https://use.typekit.net/bao1gkf.css");
+    font-family: rift, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+    src: url("https://use.typekit.net/bao1gkf.css");
+    font-family: freight-text-pro, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.container{
+		align-items: stretch;
+	width: 75%;
+	height: 75%;
+margin-top: auto;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-bottom: auto;
+
+}
+
+
+
+
+
+
+
+.text {
+	font-family:Rift;
+  	color: black;
+  	font-size: 10px;
+
+}
+
+h3 {
+	font-family:rift, bold;
+	font-weight:normal;
+	font-size:100px;
+	font-weight: 700;
+	width:50vw;
+	margin: 0 auto;
+
+  	
+}
+
+h2{
+	font-weight:normal;
+	font-size:40px;
+	font-weight: 400;
+	margin:0;
+	padding:0;
+
+}
+
+h5{
+	font-family:freight-text-pro, serif;
+	font-size:15px;
+	font-weight: 400;
+	margin:0;
+	padding:0;
+}
+
+.southerndogface{
+	position: absolute;
+	top: 10%;
+	left: 60%;
+}
+
+
+.gartiaskipper{
+	position: absolute;
+	top: 10%;
+	left: 60%;
+}
+
+
+.whitecheckered{
+	position: absolute;
+	top: 5%;
+	left: 60%;
+}
+
+.silveryblue{
+	position: absolute;
+	top: 5%;
+	left: 60%;
+}
+
+.viceroy{
+	position: absolute;
+	top: 0%;
+	left: 55%;
+	   size: 70%;
+}
+
+.browneyed{
+	position: absolute;
+	top: 5%;
+	left: 45%;
+	   size: 70%;
+}
+
+
+
+.milbertstortoiseshell{
+	position: absolute;
+	top: 5%;
+	left: 45%;
+	   size: 70%;
+}
+
+
+
+.canadiantigerswallowtail{
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	   size: 70%;
+}
+
+.monarchbutterfly{
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	   size: 70%;
+}
+
+
+.blackswallowtail{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	   size: 70%;
+}
+
+
+.northerncresent{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	   size: 70%;
+}
+
+
+.weidemeyersadmiral{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	   size: 70%;
+}
+
+.questionmark{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	   size: 70%;
+}
+
+.variegatedfritillary{
+	position: absolute;
+	top: 0%;
+	left: 53%;
+	   size: 70%;
+}
+
+
+.lorquinsadmiral{
+	position: absolute;
+	top: 0%;
+	left: 53%;
+	   size: 70%;
+}
+
+.edithscheckerspot{
+	position: absolute;
+	top: 0%;
+	left: 53%;
+	   size: 70%;
+}
+
+.meadssulphur{
+	position: absolute;
+	top: 0%;
+	left: 53%;
+	   size: 70%;
+}
+
+.dingyskipper{
+	position: absolute;
+	top: 0%;
+	left: 40%;
+	   size: 70%;
+}
+
+.magpiemoth{
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	   size: 70%;
+}
+
+.northwesternfritillary{
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	   size: 70%;
+}
+
+.americansnout{
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	   size: 70%;
+}
+
+
+
+
+@media (max-width: 800px) {
+
+#map{
+	max-width:; 
+	left:20%;
+}
+	.text { font-size:15px; }
+	h3 {
+		font-size:55px;
+	}
+	h4 {
+		font-size:50px;
+	}
+	h5 {
+		font-size:20px;
+	}
+	h2 {
+		font-size:45px;
+	}
+
+img {
+    max-width: 400px;
+    width:100%;
+    height: auto;
+}
+
+.southerndogface{
+	   max-width: 400px;
+    width:60%;
+    height: auto;
+
+}
+
+.gartiaskipper{
+	   max-width: 400px;
+    width:60%;
+    height: auto;
+
+}
+
+.whitecheckered{
+	   max-width: 400px;
+    width:60%;
+    height: auto;
+
+}
+
+
+
+.silveryblue{
+	   max-width: 400px;
+    width:60%;
+    height: auto;
+
+}
+
+.viceroy{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+
+.browneyed{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+
+.milbertstortoiseshell{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.canadiantigerswallowtail{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+
+.monarchbutterfly{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+
+.blackswallowtail{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.northerncresent{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.weidemeyersadmiral{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.questionmark{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.variegatedfritillary{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+
+.lorquinsadmiral{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.edithscheckerspot{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.meadssulphur{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+
+.dingyskipper{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.magpiemoth{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.northwesternfritillary{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+.americansnout{
+	   max-width: 400px;
+
+    width:60%;
+    height: auto;
+
+}
+
+
+#map
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+	.butterfly {
+		position:static!important;
+		margin:3em auto;
+		transform: translate(0%,0%);
+
+	}*/
+}*/
+/*.butterfly{
+	display:block;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	/*background-color: red;*/
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+

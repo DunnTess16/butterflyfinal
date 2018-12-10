@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="butterfly1v2.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="name">
+			<h1>Southern Dogface</h1>
+			<h2>Zerene Cesonia</h2>
+
+		</div>
+
+
+		<div class="infocontainer">
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext" ></div>
+					<img src="butterfly1.png" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="southern-dogface.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="southerndogface2.jpg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+			</div>
+<!-- 
+			<div ><img class="image" src="butterfly1.png" ></div> -->
+
+			<div class="info">
+				<h3>Family:</h3>
+				<p>Pieridae</p>
+				<h3>Identification:</h3>
+				<p>Upperside forewings of both sexes have yellow "dog's head" surrounded by black.
+					"Eye" does not touch black border. Female similar, with duller,
+					more diffuse black areas and 2 seasonal forms: underside hindwing of wet season
+				"summer" form is yellow; that of dry season "winter" form is mottled with black and pink.</p>
+				<h3>Habitat:</h3>
+				<p>Dry, open areas such as short-grass prairie hills,
+				scrub oak groves, open woodland, washes, road edges.</p>
+				<h3>Flight:</h3>
+				<p>Three flights in the southern states from May-June, July-August, 
+				and September-April. Northern colonists have one generation per year, or do not reproduce at all.</p>
+				<h3>Adult Food:</h3>
+				<p>Nectar from flowers including alfalfa, coreopsis, houstonia, and verbena.</p>
+
+			</div>
+		</div>
+
+		<div id="map">
+			<script>
+            // Initialize and add the map
+            function initMap() {
+              // The location of Uluru
+              var uluru = {lat: 52.513950, lng: -89.392116};
+              // The map, centered at Uluru
+              var map = new google.maps.Map(
+              	document.getElementById('map'), {zoom: 4, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+
+          }
+
+      </script>
+  </div>
+
+
+
+
+</div>
+
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMPnTHOTL1PPu_TVpYSRv3Ra2SDEG54C4&callback=initMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+</script>
+<script src="butterfly1v2.js"></script>
+</body>
+</html>
+

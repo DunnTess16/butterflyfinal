@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="mourningcloak.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="name">
+			<h1>Mourning Cloak</h1>
+			<h2>Nymphalis antiopa</h2>
+
+		</div>
+
+
+		<div class="infocontainer">
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext" ></div>
+					<img src="mourningcloak.png" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="mourningcloak1.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="mourningcloak2.jpg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+			</div>
+<!-- 
+			<div ><img class="image" src="butterfly1.png" ></div> -->
+
+			<div class="info">
+				<h3>Family:</h3>
+				<p>Pieridae</p>
+				<h3>Identification:</h3>
+				<p> Short projections on both wings, borders irregular. Upperside is purple-black with a wide, bright yellow border on outer margins, and a row of iridescent blue spots at the inner edge of the border.</p>
+				<h3>Habitat:</h3>
+				<p>Because Mourning Cloaks roam and migrate, they are found almost anywhere that host plants occur including woods, openings, parks, and suburbs; and especially in riparian areas.</p>
+				<h3>Flight:</h3>
+				<p>Usually one flight from June-July.</p>
+				<h3>Adult Food:</h3>
+				<p>Mourning Cloaks prefer tree sap, especially that of oaks. They walk down the trunk to the sap and feed head downward. They will also feed on rotting fruit, and only occasionally on flower nectar..</p>
+
+			</div>
+		</div>
+
+		<div id="map">
+			<script>
+            // Initialize and add the map
+            function initMap() {
+              // The location of Uluru
+              var uluru = {lat: 19.4357, lng: -99.1440};
+              // The map, centered at Uluru
+              var map = new google.maps.Map(
+              	document.getElementById('map'), {zoom: 4, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+
+          }
+
+      </script>
+  </div>
+
+
+
+
+</div>
+
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMPnTHOTL1PPu_TVpYSRv3Ra2SDEG54C4&callback=initMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+</script>
+<script src="butterfly1v2.js"></script>
+</body>
+</html>
+

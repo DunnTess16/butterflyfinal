@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+   <head>
+   <body>
+      <style-type="text/css">
+      <link rel="stylesheet" href="butterfly1.css">
+      </head>
+      <div ><img class="southerndogface" src="butterfly1.png" ></div>
+      <div class="text">
+
+
+<div class="container">
+<div class="text"></div>
+<div class="butterfly"></div>
+<div class="map"></div>
+</div>
+         <h3>Southern Dogface</h3>
+      </div>
+      <p></p>
+      <div class="text">
+         <h2>Family:</h2>
+         <h5>Pieridae</h5>
+         <p></p>
+         <h2>Identification:</h2>
+         <h5>
+            Upperside forewings of both sexes have yellow "dog's head" surrounded by black. 
+            <p>"Eye" does not touch black border. Female similar, with duller,</p>
+            <p>more diffuse black areas and 2 seasonal forms: underside hindwing of wet season</p>
+            <p>"summer" form is yellow; that of dry season "winter" form is mottled with black and pink.</p>
+         </h5>
+         <p></p>
+         <h2>Habitat:</h2>
+         <h5>
+         Dry, open areas such as short-grass prairie hills,
+         <p>scrub oak groves, open woodland, washes, road edges.</p></h5>
+         <p></p>
+         <h2>Flight:</h2>
+         <h5>
+            <p>Three flights in the southern states from May-June, July-August, 
+            <p>and September-April. Northern colonists have one generation per year, or do not reproduce at all.</p>
+         </h5>
+        <!--  <h2>Wing Span:</h2>
+         <h5>2 1/8 -3 inches </h5> -->
+        <!--  <p></p> -->
+         <h2>Adult Food:</h2>
+         <h5> 
+            Nectar from flowers including alfalfa, coreopsis, houstonia, and verbena. 
+         </h5>
+         <p></p>
+      </div>
+      <style>
+         /* Set the size of the div element that contains the map */
+         #map {
+         position: absolute;
+         top:90%;
+         height: 400px;  /* The height is 400 pixels */
+         width: 100%;  /* The width is the width of the web page */
+         }
+      </style>
+      </head>
+      <body>
+         <!-- <h3>My Google Maps Demo</h3> -->
+         <!--The div element for the map -->
+         <div id="map"></div>
+         <script>
+            // Initialize and add the map
+            function initMap() {
+              // The location of Uluru
+              var uluru = {lat: 52.513950, lng: -89.392116};
+              // The map, centered at Uluru
+              var map = new google.maps.Map(
+                  document.getElementById('map'), {zoom: 4, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+            }
+                
+         </script>
+         <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMPnTHOTL1PPu_TVpYSRv3Ra2SDEG54C4&callback=initMap"></script>
+   </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="Assignment4jquery.js"></script>
+</body>

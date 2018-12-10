@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<body>
+
+ <style-type="text/css">
+<link rel="stylesheet" href="butterfly1.css">
+
+</head>
+
+
+<div ><img class="silveryblue" src="butterfly4.png" >
+</div> 
+
+
+
+<div class="text">
+<h3>Silvery Blue</h3></div> 
+
+
+
+
+
+
+
+<div class="text">
+<h2>Wing Span:</h2><h5>Lycaenidae
+</h5>
+<h2>Wing Span:</h2><h5>7/8 - 1 1/4 inches (2.2 - 3.2 cm)
+</h5>
+<h2>Adult Food:</h2><h5> 
+Nectar from flowers including Asteraceae.
+</h5>
+<h2>Flight:</h2><h5>One flight from March-June at low elevations, June-August at high elevations.
+<p></p>
+
+
+</h5></div> 
+
+<style>
+      /* Set the size of the div element that contains the map */
+      #map {
+      	position: absolute;
+      	top:90%;
+      	left: 0%;
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <!-- <h3>My Google Maps Demo</h3> -->
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 52.513950, lng: -89.392116};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMPnTHOTL1PPu_TVpYSRv3Ra2SDEG54C4&callback=initMap">
+    </script>
+
+
+
+
+
+    
+</body>
+</html>

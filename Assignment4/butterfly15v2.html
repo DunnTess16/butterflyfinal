@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="butterfly15v2.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="name">
+			<h1>Black Swallowtail</h1>
+			<h2>Papilio polyxenes</h2>
+
+		</div>
+
+
+		<div class="infocontainer">
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext" ></div>
+					<img src="butterfly15.png" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="blackswallowtail1.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="blackswallowtail2.jpg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+			</div>
+<!-- 
+			<div ><img class="image" src="butterfly1.png" ></div> -->
+
+			<div class="info">
+				<h3>Family:</h3>
+				<p>Papilionidae</p>
+				<h3>Identification:</h3>
+				<p>Upper surface of wings mostly black; on inner edge of hindwing is a black spot centered in larger orange spot. Male has yellow band near edge of wings; female has row of yellow spots. Female hindwing with iridescent blue band. In the Southwest, yellow forms predominate in the subspecies P. coloro.</p>
+				<h3>Habitat:</h3>
+				<p>A variety of open areas including fields, suburbs, marshes, deserts, and roadsides.</p>
+				<h3>Flight:</h3>
+				<p>One-2 flights from April-October in northern regions of range; 3 flights in southern regions.</p>
+				<h3>Adult Food:</h3>
+				<p>Nectar from flowers including red clover, milkweed, and thistles.</p>
+
+			</div>
+		</div>
+
+		<div id="map">
+			<script>
+            // Initialize and add the map
+            function initMap() {
+              // The location of Uluru
+              var uluru = {lat: 42.4072, lng: -71.3824};
+              // The map, centered at Uluru
+              var map = new google.maps.Map(
+              	document.getElementById('map'), {zoom: 4, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+
+          }
+
+      </script>
+  </div>
+
+
+
+
+</div>
+
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMPnTHOTL1PPu_TVpYSRv3Ra2SDEG54C4&callback=initMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+</script>
+<script src="butterfly1v2.js"></script>
+</body>
+</html>
+

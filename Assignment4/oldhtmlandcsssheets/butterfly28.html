@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<body>
+
+ <style-type="text/css">
+<link rel="stylesheet" href="butterfly1.css">
+
+</head>
+
+
+<div ><img class="northwesternfritillary" src="butterfly28.png" >
+</div> 
+
+<div class="text">
+<h3>Northwestern fritillary</h3><h5>Speyeria hesperis
+
+<div class="text">
+<h2>Family:</h2><h5> Nymphalidae
+</h5>
+<h2>Wing Span:</h2><h5>2 - 2 3/4 inches (5 - 7 cm).
+</h5>
+<h2>Adult Food:</h2><h5>Flower nectar including Gaillardia, rabbitbrush,
+<p>purple mints, and shrub cinquefoil.</p>
+<h2>Flight:</h2><h5>One flight from June-October, mainly July-August.
+</h5></div>
+
+
+<style>
+      /* Set the size of the div element that contains the map */
+      #map {
+      	position: absolute;
+      	top:90%;
+      	left: 0%;
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <!-- <h3>My Google Maps Demo</h3> -->
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 52.513950, lng: -89.392116};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMPnTHOTL1PPu_TVpYSRv3Ra2SDEG54C4&callback=initMap">
+    </script>
+<!-- <script>
+  function initMap() {
+  }
+</script> -->
+
+
+</body>
+</html>

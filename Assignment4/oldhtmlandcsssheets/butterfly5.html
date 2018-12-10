@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<body>
+
+ <style-type="text/css">
+<link rel="stylesheet" href="butterfly1.css">
+
+</head>
+
+
+<div ><img class="viceroy" src="butterfly5.png" >
+</div> 
+
+
+
+<div class="text">
+<h3>Viceroy</h3><h5>Limenitis archippus</h5></div> 
+
+
+
+
+
+
+
+<div class="text">
+<h2>Family:</h2><h5> Nymphalidaes
+</h5>
+<h2>Wing Span:</h2><h5>2 1/2 - 3 3/8 inches (6.3 - 8.6 cm).
+</h5>
+<h2>Adult Food:</h2><h5> 
+Early in the season when few flowers are available Viceroys feed on aphid honeydew,
+<p>carrion, dung, and decaying fungi. Later generations feed more often at flowers,</p>
+<p>favoring composites including aster, goldenrod, joe-pye weed, shepherd's needle, and Canada thistle.</p>
+</h5>
+<h2>Flight:</h2><h5>Two to three broods from May-September in most of its range, all year in Florida.
+<p></p>
+
+
+</h5></div> 
+<style>
+      /* Set the size of the div element that contains the map */
+      #map {
+      	position: absolute;
+      	top:90%;
+      	left: 0%;
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <!-- <h3>My Google Maps Demo</h3> -->
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 52.513950, lng: -89.392116};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMPnTHOTL1PPu_TVpYSRv3Ra2SDEG54C4&callback=initMap">
+    </script>
+
+
+
+
+
+    
+</body>
+</html>

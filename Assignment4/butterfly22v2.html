@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="butterfly22v2.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="name">
+			<h1>Lorquin's admiral</h1>
+			<h2>Limenitis lorquini</h2>
+
+		</div>
+
+
+		<div class="infocontainer">
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext" ></div>
+					<img src="butterfly22.png" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="lorquinsadmiral1.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="lorquinsadmiral2.jpg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+			</div>
+<!-- 
+			<div ><img class="image" src="butterfly1.png" ></div> -->
+
+			<div class="info">
+				<h3>Family:</h3>
+				<p>Nymphalidae</p>
+				<h3>Identification:</h3>
+				<p>Upperside is black with white median bands on both wings; tip of forewing is orange-brown. Underside is reddish-brown with white markings.</p>
+				<h3>Habitat:</h3>
+				<p>Forest edges, mountain canyons, orchards, parks, streamsides, fencerows and groves of cottonwood and poplar.</p>
+				<h3>Flight:</h3>
+				<p> April-October. Several flights in California, probably one flight in the northern part of its range.</p>
+				<h3>Adult Food:</h3>
+				<p>Flower nectar from plants including California buckeye, yerba santa, and privet; bird droppings; and dung.</p>
+
+			</div>
+		</div>
+
+		<div id="map">
+			<script>
+            // Initialize and add the map
+            function initMap() {
+              // The location of Uluru
+              var uluru = {lat: 53.7267, lng: -127.6476};
+              // The map, centered at Uluru
+              var map = new google.maps.Map(
+              	document.getElementById('map'), {zoom: 4, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+
+          }
+
+      </script>
+  </div>
+
+
+
+
+</div>
+
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMPnTHOTL1PPu_TVpYSRv3Ra2SDEG54C4&callback=initMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+</script>
+<script src="butterfly1v2.js"></script>
+</body>
+</html>
+

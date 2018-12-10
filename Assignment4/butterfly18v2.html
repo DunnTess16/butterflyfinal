@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="butterfly18v2.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="name">
+			<h1>Question mark</h1>
+			<h2>Polygonia interrogationis</h2>
+
+		</div>
+
+
+		<div class="infocontainer">
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext" ></div>
+					<img src="butterfly18.png" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="questionmark1.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text"></div>
+					<div class="numbertext"></div>
+					<img src="questionmark2.jpg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+			</div>
+<!-- 
+			<div ><img class="image" src="butterfly1.png" ></div> -->
+
+			<div class="info">
+				<h3>Family:</h3>
+				<p>Nymphalidae</p>
+				<h3>Identification:</h3>
+				<p> Forewing is hooked; upperside is red-orange with black spots. Upperside hindwing of summer form is mostly black with a short tail; that of winter form has much orange and a longer, violet-tipped tail. Underside is light brown; hindwing with pearly white question mark in center.</p>
+				<h3>Habitat:</h3>
+				<p>Wooded areas with some open space, city parks, suburbs, fencerows.</p>
+				<h3>Flight:</h3>
+				<p>Overwintered adults fly and lay eggs in the spring until the end of May. The summer form emerges and flies from May-September, laying eggs that develop into the winter form; these adults appear in late August and spend the winter in various shelters.</p>
+				<h3>Adult Food:</h3>
+				<p>Rotting fruit, tree sap, dung, carrion. Only when these are unavailable do Question Marks visit flowers such as common milkweed, aster, and sweet pepperbush.</p>
+
+			</div>
+		</div>
+
+		<div id="map">
+			<script>
+            // Initialize and add the map
+            function initMap() {
+              // The location of Uluru
+              var uluru = {lat: 45.2538, lng: -69.4455};
+              // The map, centered at Uluru
+              var map = new google.maps.Map(
+              	document.getElementById('map'), {zoom: 4, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+
+          }
+
+      </script>
+  </div>
+
+
+
+
+</div>
+
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMPnTHOTL1PPu_TVpYSRv3Ra2SDEG54C4&callback=initMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+</script>
+<script src="butterfly1v2.js"></script>
+</body>
+</html>
+
